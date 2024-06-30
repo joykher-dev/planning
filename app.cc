@@ -1,7 +1,20 @@
-#include <iostream>
+#include <memory>
 
-int main(int argc, char *argv[]) {
-  std::cout << "====<=======>====" << std::endl;
+#include "Graph.h"
 
-  return 0;
+using namespace planning;
+
+/*
+ * 2 -> 3 -> 5
+ *      \-> 6  \_
+ *          \-> 7
+  */
+void BuildGraph() {
+	std::unordered_set<NodePtr> node_set = { {2, 3 } };
+}
+
+
+int main(int argc, char* argv[]) {
+
+	return 0;
 }

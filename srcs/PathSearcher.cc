@@ -1,3 +1,3 @@
-#include "PathSearch.h"
+#include "PathSearcher.h"
 
 PathSearcher::PathSearcher() {}

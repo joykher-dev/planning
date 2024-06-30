@@ -3,6 +3,7 @@
 class Dijkstra : public PathSearcher {
 public:
     Dijkstra() = default;
+
 private:
     
 };
